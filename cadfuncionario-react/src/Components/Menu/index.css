@@ -1,0 +1,35 @@
+.menu {
+    width: 265px;
+    height: 100vh;
+    background: rgb(39, 39, 39);
+    position: fixed;
+    left: 0;
+    top: 0;
+}
+nav > h4, h2, h1 {
+    font-weight: 100;
+    color: white;
+    text-align: center;
+}
+img {
+    margin: 100px 80px;
+}
+ul > li > a {
+    transition: 1s,1s;
+    color: white;
+}
+li {
+    transition: 0.5s, 0.5s;
+    background: rgb(39, 39, 39);
+    color: white;
+    display: inline;
+    padding: 7px;
+
+}
+ul > li > a:hover {
+    color: black;
+}
+li:hover {
+    background: white;
+    color: rgb(39, 39, 39);
+}
