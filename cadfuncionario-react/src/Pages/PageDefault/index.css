@@ -1,12 +1,15 @@
+.container-default {
+    margin-left:266px;
+}
 .btn-add-func {
     box-shadow: 1px 7px 20px 1px rgb(0, 0, 0, 0.4);
     text-align: center;
     padding: 20px;
-    font-size: 30px;
+    font-size: 22px;
     position: fixed;
     right: 30px;
     bottom: 30px;
-    width: 85px;
+    width: 73px;
     color: white;
     border: none;
     background: rgb(112, 112, 245);

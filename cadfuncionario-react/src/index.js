@@ -4,13 +4,15 @@ import {BrowserRouter, Switch, Route} from 'react-router-dom';
 import './index.css';
 import App from './App';
 import Funcionarios from './Pages/Funcionarios'
+import AddFunc from './Pages/AddFunc';
 
 ReactDOM.render(
   <React.StrictMode>
   <BrowserRouter>
   <Switch>
-      <Route extact path="/" component={App} />
+      <Route exact path="/" component={App} />
       <Route path="/funcionarios" component={Funcionarios} />
+      <Route path="/addfuncionario" component={AddFunc} />
       <App/>
   </Switch>
   </BrowserRouter>

@@ -19,7 +19,6 @@
     "react-toastify": "^6.0.8"
   },
   "scripts": {
-    "start-nodemon": "nodemon",
     "server": "nodemon server.js",
     "start": "react-scripts start",
     "build": "react-scripts build",
